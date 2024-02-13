@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Will you be my Valentine?</h1>
+
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+
+      <!-- FIRST -->
+      <dotlottie-player
+        src="https://lottie.host/36d647e8-4454-4d67-a696-67d3f9b4238d/67gj54FZTw.json"
+        background="transparent"
+        speed="1"
+        style="width: 400px; height: 400px"
+        loop
+        autoplay
+        class="gif first--gif"
+      ></dotlottie-player>
+
+      <dotlottie-player
+        src="https://lottie.host/3232e786-4bc6-43dc-8fe9-ad56ca9cdb0d/2idE4SKeWE.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay
+        class="gif hidden"
+        data-gif="0"
+      ></dotlottie-player>
+
+      <dotlottie-player
+        src="https://lottie.host/037dfd5e-6c4f-4125-9f07-89e514395131/3NL9iFZigN.json"
+        background="transparent"
+        speed="1"
+        style="width: 400px; height: 400px"
+        loop
+        autoplay
+        class="gif hidden"
+        data-gif="2"
+      ></dotlottie-player>
+
+      <dotlottie-player
+        src="https://lottie.host/bfab493b-4d93-4b10-bdb5-6547ad4a4c79/6apRBZN7mO.json"
+        background="transparent"
+        speed="1"
+        style="width: 400px; height: 400px"
+        loop
+        autoplay
+        class="gif hidden"
+        data-gif="4"
+      ></dotlottie-player>
+
+      <!-- SAD -->
+      <dotlottie-player
+        src="https://lottie.host/84a7e2bd-656d-497d-bc4e-685cd116f0ec/w024qjSLlU.json"
+        background="transparent"
+        speed="1"
+        style="width: 200px; height: 200px"
+        loop
+        autoplay
+        class="gif hidden"
+        data-gif="6"
+      ></dotlottie-player>
+
+      <!-- <dotlottie-player
+        src="https://lottie.host/198b4c19-3210-4b23-ae36-1b656f5f507a/Hgbc3ovCmi.json"
+        background="transparent"
+        speed="1"
+        style="width: 400px; height: 400px"
+        loop
+        autoplay
+        class="gif hidden"
+      ></dotlottie-player> -->
+
+      <dotlottie-player
+        src="https://lottie.host/beb2c300-55ad-4871-a3c2-2b698c7d7fb2/kP6Ka9dh1W.json"
+        background="transparent"
+        speed="1"
+        style="width: 200px; height: 200px"
+        loop
+        autoplay
+        class="gif hidden"
+        data-gif="8"
+      ></dotlottie-player>
+
+      <!-- FINAL -->
+      <dotlottie-player
+        src="https://lottie.host/910192d5-5a80-44e9-a636-7efb9e185460/X08NAmPzwx.json"
+        background="transparent"
+        speed="1"
+        style="width: 450px; height: 450px"
+        loop
+        autoplay
+        class="gif final--gif hidden"
+      ></dotlottie-player>
+
+      <div class="btns-container">
+        <button class="btn btn--yes">Yes</button>
+        <button class="btn btn--no">No</button>
+      </div>
+    </div>
+  </body>
+</html>
