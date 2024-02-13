@@ -31,7 +31,7 @@ const saidYes = function () {
   btnContainer.classList.add('hidden');
   message.textContent = "Looks like it's a date! xoxoxo";
 };
-
+// this a change
 const revealGif = function (gif) {
   gifs.forEach(gif => gif.classList.add('hidden'));
   gif.classList.remove('hidden');
